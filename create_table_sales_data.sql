@@ -1,0 +1,23 @@
+CREATE TABLE sales_data (
+    row_id INT PRIMARY KEY,
+    order_id VARCHAR(25),
+    order_date DATE,
+    ship_date DATE,
+    ship_mode VARCHAR(20),
+    customer_id VARCHAR(15),
+    customer_name VARCHAR(50),
+    segment VARCHAR(20),
+    country VARCHAR(30),
+    city VARCHAR(50),
+    state VARCHAR(50),
+    postal_code VARCHAR(10),
+    region VARCHAR(15),
+    product_id VARCHAR(25),
+    category VARCHAR(25),
+    sub_category VARCHAR(25),
+    product_name VARCHAR(150),
+    sales DECIMAL(10,2),
+    quantity INT,
+    discount DECIMAL(3,2),
+    profit DECIMAL(10,2)
+);
